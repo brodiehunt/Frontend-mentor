@@ -6,5 +6,5 @@ This is a showcase of the projects I have completed with Frontend Mentor. I hope
 
 ## Newbie 
 | Tech  | Challenges | Live | Code |
-| ---- | --------    | --  | --|
-|HTML,CSS| QR Component Card | NA | NA|
+| ---- | --------    |  -- | -- |
+|HTML,CSS| QR Component Card | [Live](https://brodiehunt.github.io/Frontend-mentor/qr-code-component/index.html) | [github](https://github.com/brodiehunt/Frontend-mentor/tree/main/qr-code-component)|

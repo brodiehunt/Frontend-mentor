@@ -22,8 +22,8 @@ This is a simple qr-code component built with HTML and CSS.
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Github](https://github.com/brodiehunt/Frontend-mentor/tree/main/qr-code-component)
+- Live Site URL: [Live](https://brodiehunt.github.io/Frontend-mentor/qr-code-component/index.html)
 
 ## My process
 
