@@ -8,3 +8,5 @@ This is a showcase of the projects I have completed with Frontend Mentor. I hope
 | Tech  | Challenges | Live | Code |
 | ---- | --------    |  -- | -- |
 |HTML,CSS| QR Component Card | [Live](https://brodiehunt.github.io/Frontend-mentor/qr-code-component/index.html) | [github](https://github.com/brodiehunt/Frontend-mentor/tree/main/qr-code-component)|
+|HTML,CSS| Workit Landing Page | [Live](https://brodiehunt.github.io/Frontend-mentor/workit-landing-page/index.html) | [github](https://github.com/brodiehunt/Frontend-mentor/tree/main/workit-landing-page)|
+|HTML,CSS| results summary component | [Live](https://brodiehunt.github.io/Frontend-mentor/results-summary-component/index.html) | [github](https://github.com/brodiehunt/Frontend-mentor/tree/main/results-summary-component)|
