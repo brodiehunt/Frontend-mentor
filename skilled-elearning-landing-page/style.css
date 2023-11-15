@@ -1,0 +1,16 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    --lightBlue: #666CA3;
+    --navy: #13183F;
+    --white: #FFF;
+    --grey: #83869A;
+    --hotPink: #F74780;
+    --babyPink: #FFA7C3;
+    --gradient-1: linear-gradient(180deg, #FF6F48 0.04%, #F02AA6 100%);
+    --gradient-2: linear-gradient(180deg, #4851FF 0%, #F02AA6 99.92%);
+}
