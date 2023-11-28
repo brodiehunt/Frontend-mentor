@@ -27,23 +27,26 @@
       <!-- Radio buttons -->
         <div class="radio-container">
           <div class="radio-buttons-container">
+            <input class="radio-input hidden" name="measurement" id="metric" value="metric" type="radio" checked/>
             <svg xmlns="http://www.w3.org/2000/svg" width="31" height="31" viewBox="0 0 31 31" fill="none">
-              <circle cx="15.5" cy="15.5" r="15.5" fill="#345FF6" fill-opacity="0.15"/>
-              <circle cx="15.5" cy="15.5" r="7.5" fill="#345FF6"/>
+              <circle cx="15.5" cy="15.5" r="15" fill="white" stroke="#D8E2E7"/>
+              <circle class="radio-fill" cx="15.5" cy="15.5" r="15.5" fill="#345FF6" fill-opacity="0.15"/>
+              <circle class="radio-fill" cx="15.5" cy="15.5" r="7.5" fill="#345FF6"/>
             </svg>
-            <input class="radio-input hidden" type="radio"/>
             <label for="metric">Metric</label>
           </div>
           <div class="radio-buttons-container">
-            <input type="radio" class="radio-input hidden"/>
+            <input type="radio" name="measurement" value="imperial" id="imperial" class="radio-input hidden"/>
             <svg xmlns="http://www.w3.org/2000/svg" width="31" height="31" viewBox="0 0 31 31" fill="none">
               <circle cx="15.5" cy="15.5" r="15" fill="white" stroke="#D8E2E7"/>
+              <circle class="radio-fill" cx="15.5" cy="15.5" r="15.5" fill="#345FF6" fill-opacity="0.15"/>
+              <circle class="radio-fill" cx="15.5" cy="15.5" r="7.5" fill="#345FF6"/>
               </svg>
             <label for="imperial">Imperial</label>
           </div>
         </div>
         <!-- Form input elements -->
-        <div class="form-feilds-container">
+        <div class="form-feilds-container metricContainer active" id="metricContainer">
           <div class="form-input-container">
             <label for="height">Height</label>
             <div class="units">cm</div>
@@ -53,6 +56,34 @@
             <label for="weight">Weight</label>
             <input class="form-input" type="number" max="999"> 
             <div class="units">kg</div>
+          </div>
+        </div>
+        <div class="form-feilds-container imperialContainer" id="imperialContainer">
+          <div class="height-container">
+            <div class="form-input-container">
+              <label for="height">Height</label>
+              <div class="height-input-container">
+                <div class="units">in</div>
+                <input class="form-input" type="number" max="999">
+              </div>
+              <div class="height-input-container">
+                <div class="units">ft</div>
+                <input class="form-input" type="number" max="999">
+              </div>
+            </div>
+          </div>
+          <div class="weight-container">
+            <div class="form-input-container">
+              <label for="weight">Weight</label>
+              <div class="weight-input-container">
+                <div class="units">st</div>
+                <input class="form-input" type="number" max="999">
+              </div>
+              <div class="weight-input-container">
+                <div class="units">lb</div>
+                <input class="form-input" type="number" max="999">
+              </div>
+            </div>
           </div>
         </div>
         <!-- Results box -->
@@ -155,5 +186,6 @@
       </div>
     </section>
   </main>
+  <script src="script.js"></script>
 </body>
 </html>
