@@ -14,7 +14,7 @@ This is a showcase of the projects I have completed with Frontend Mentor. I hope
 ## Junior
 | Tech | Challenges | Live | Code |
 | ---- | -------- | -- | -- |
-| HTML, CSS | Body Mass Indicator | [Live](https://brodiehunt.github.io/Frontend-mentor/body-mass-indicator/index.html) | [github](https://github.com/brodiehunt/Frontend-mentor/tree/main/body-mass-indicator) |
+| HTML, CSS | Body Mass Indicator | [Live](https://brodiehunt.github.io/Frontend-mentor/body-mass-indicator-calculator/index.html) | [github](https://github.com/brodiehunt/Frontend-mentor/tree/main/body-mass-indicator-calculator) |
 
 ## Intermediate
 | Tech | Challenges | Live | Code |
